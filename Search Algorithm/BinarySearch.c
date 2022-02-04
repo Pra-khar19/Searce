@@ -22,7 +22,7 @@ int BinarySearch(int arr[], int size, int element){
 }
  
 int main(){
-    int arr[] = {1,35,52,56,644,73,1203,225,44};
+    int arr[] = {1,35,52,56,64,73,120,225,440};
     int size = sizeof(arr)/sizeof(int);
     int element = 35; // Write the element which you want to search
     int searchIndex = BinarySearch(arr, size, element);
